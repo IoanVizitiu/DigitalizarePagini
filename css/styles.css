@@ -1,1 +1,217 @@
+.svg-icon {
+    width: 2em;
+}
 
+.container-fluid {
+    padding: 0
+}
+
+.container-fluid > .row > div > .row > div:not(.left-header > div:nth-child(1), .right-header > div:nth-child(3), .left-header > div:nth-child(3)) {
+    padding-left: 0%
+}
+
+.left-header > *, .right-header > * {
+    height: 6vh;
+    padding-top: 2%;
+}
+
+.left-header > div:nth-child(1), .right-header > div:nth-child(3) {
+    background-color: rgb(0, 142, 140);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-right: 0
+}
+
+.left-header > div:nth-child(2), .right-header > div:nth-child(2) {
+    color: rgb(56, 148, 133);
+    background-color: rgb(255, 230, 150);
+    text-align: right;
+}
+
+.left-header > div:nth-child(3), .right-header > div:nth-child(1) {
+    background-color: rgb(255, 203, 0);
+    color: rgb(108, 76, 63);
+    text-align: left
+}
+
+.right-header > div:nth-child(1) {
+    text-align: right
+}
+
+.footer {
+    color: rgb(14, 138, 138)
+}
+
+.title {
+    color: rgb(249, 163, 0)
+}
+
+img {
+    height: auto;
+    width: 100%
+}
+
+/*
+Paragraful Pentru inceput
+*/
+.inside-wrapper {
+    margin-top: 2%;
+    border: dashed cadetblue;
+}
+
+.inside-border {
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 0;
+    color: black;
+    background: white;
+    border-radius: 2%;
+    padding: 2% 2%;
+}
+
+.inside {
+    margin-top: 5%;
+}
+
+ol { 
+    counter-reset: item;
+    list-style-type: none;
+    padding-left: 0
+}
+
+ol > li { 
+    display: block;
+}
+
+ol > li::before { 
+    content: counter(item) "  "; 
+    counter-increment: item;
+    color: rgb(56, 148, 133); 
+}
+
+ol > li::after {
+    padding-right: 10%;
+}
+
+.inline-elems {
+    position: relative
+}
+
+.inline-elems > * {
+    display: inline-block;
+    color: rgb(0, 142, 140)
+}
+
+hr.rule {
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(56, 148, 133)
+}
+
+.oranged1 {
+    background-color: rgb(255, 235, 197);
+}
+
+.oranged2 {
+    color: rgb(244, 145, 0)
+}
+
+.oranged3, .oranged3 > * {
+    background-color: rgb(255, 252, 237)
+}
+
+.pinksvg {
+    vertical-align: middle;
+    fill: rgb(210, 69, 103);
+    overflow: hidden;
+}
+
+.pink2 {
+    color: rgb(210, 69, 103)
+}
+
+.outside-div {
+    margin-left: -4%;
+    width: 4%;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.inlined > * {
+    display: inline-block;
+}
+
+
+div.spelling {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+div.spelling > * {
+    width: 50%;
+    float: left;
+    flex: 1
+}
+
+div.spelling > div.img-spelling > img {
+    width: 50%;
+    margin-left: 25%
+}
+
+div.spelling:after {
+    content: '';
+    clear: both;
+    display: table
+}
+
+ul.bulleted-lis {
+    list-style: none
+}
+
+ul.bulleted-lis > li {
+    display: inline-block
+}
+
+ul.bulleted-lis > li:not(:last-child)::after {
+    content: " •"; 
+    color: rgb(210, 69, 103);
+}
+
+/* cuvantul paianjen in silabe */
+.framed {
+   padding: 1%;
+   font-weight: bold
+}
+
+.blue1 {
+    color: blue
+}
+
+.red1 {
+    color: red
+}
+.pinktable {
+    border-collapse: collapse;
+}
+.pinktable > thead {
+    color: rgb(210, 69, 103);
+    background-color: rgb(242, 214, 213);
+    border-bottom: 2px solid white
+}
+
+.pinktable th {
+    text-align: center;
+    border: 2px solid white
+}
+
+.pinktable td {
+    background-color: rgb(248, 232, 232);
+    border: 2px solid white;
+    height: inherit
+}
+
+.lyrics p > span {
+    display: block
+}

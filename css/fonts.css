@@ -1,0 +1,80 @@
+
+@font-face {
+    font-family: 'FiraSansCondensedRegular';
+    src: url(../fonts/FiraSansCondensed-Regular.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'IBMPlexSansBold';
+    src: url(../fonts/IBMPlexSans-Bold.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'IBMPlexSansBoldItalic';
+    src: url(../fonts/IBMPlexSans-BoldItalic.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'IBMPlexSansItalic';
+    src: url(../fonts/IBMPlexSans-Italic.otf) format("opentype")
+}
+
+@font-face {
+    font-family: 'IBMPlexSansMedium';
+    src: url(../fonts/IBMPlexSans-Medium.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'IBMPlexSansRegular';
+    src: url(../fonts/IBMPlexSans-Regular.otf) format("opentype")
+}
+
+@font-face {
+    font-family: 'IBMPlexSansSemiBold';
+    src: url(../fonts/IBMPlexSans-SemiBold.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'IBMPlexSerifBold';
+    src: url(../fonts/IBMPlexSerif-Bold.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'IBMPlexSerifItalic';
+    src: url(../fonts/IBMPlexSerif-Italic.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'IBMPlexSerifLight';
+    src: url(../fonts/IBMPlexSerif-Light.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'IBMPlexSerifRegular';
+    src: url(../fonts/IBMPlexSerif-Regular.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'MinionProRegular';
+    src: url(../fonts/MinionPro-Regular.otf) format("opentype")
+}
+
+@font-face {
+    font-family: 'RobotoCondensedRegular';
+    src: url(../fonts/RobotoCondensed-Regular.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'RobotoSlabRegular';
+    src: url(../fonts/RobotoSlab-Regular.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'Webdings';
+    src: url(../fonts/Webdings.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'Wingdings';
+    src: url(../fonts/Wingdings.ttf) format("truetype")
+}
